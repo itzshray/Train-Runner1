@@ -163,7 +163,7 @@ function spawnDrops(){
 
 function spawnOBS(){
     if(frameCount%100===0){
-        var obs=createSprite(displayWidth-100,displayHeight/2+70,10,10)
+        var obs=createSprite(displayWidth-100,displayHeight/2+100,10,10)
         obs.scale=0.6
         obs.velocityX=-10
         obs.setCollider("circle",0,0,20)
